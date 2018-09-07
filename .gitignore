@@ -1,2 +1,5 @@
+.vscode/
+.idea/
+.gulp/
 node_modules/
 package-lock.json
