@@ -13,7 +13,7 @@ var gulp = require('gulp'),
   cssmin = require('gulp-clean-css'),
 
   watch = require('gulp-watch'),
-  uglify = require('gul-uglify-es'),
+  uglify = require('gulp-uglify-es').default,
 
   tinypng = require('gulp-tinify'),
   del = require('del'),
@@ -30,7 +30,7 @@ var path = {
   sass_watch: './src/sass/**/*.scss',
   sass_dest: './build/css',
 
-  js_src: './src/js/scripts.js',
+  js_src: './src/js/script.js',
   js_watch: './src/js/**/*.js',
   js_dest: './build/js/',
 
@@ -40,6 +40,7 @@ var path = {
   ],
   img_src: './src/img/**/*.*',
   img_watch: './src/img/**/*.*',
+  img_optimized: './src/img/',
   img_dest: './build/img/',
 
   fonts_src: './src/fonts/**/*.*',
@@ -63,9 +64,9 @@ gulp.task('webserver', function () {
 
 gulp.task('build:html', function () {
   gulp.src(path.html_src)
-    .pipe(rigger())
-    .pipe(gulp.dest(path.html_dest))
-    .pipe(reload({ stream: true }));
+  .pipe(rigger())
+  .pipe(gulp.dest(path.html_dest))
+  .pipe(reload({ stream: true }));
 });
 
 gulp.task('build:sass', function () {
@@ -89,18 +90,18 @@ gulp.task('build:js', function () {
   gulp.src(path.js_src)
     .pipe(rigger())
     .pipe(uglify())
-    .pipe(gulp.dest(path.js_src))
+    .pipe(gulp.dest(path.js_dest))
     .pipe(reload({ stream: true }));
 });
 
 gulp.task('tinypng', function () {
-  return gulp.src(img_optimizing)
-    .pipe(tinypng('__TINYPNG_API_KEY__'))
-    .pipe(gulp.dest(path.img_dest));
+  return gulp.src(path.img_optimizing)
+    .pipe(tinypng('7DjDuuwkwESUXiHtxULH61Xskr8HVF3U'))
+    .pipe(gulp.dest(path.img_optimized));
 });
 
 gulp.task('del', function () {
-  return del(img_optimizing, { force: true })
+  return del(path.img_optimizing, { force: true })
     .then(paths => {
       console.log('Deleted: ', paths.join('\n'));
     });
@@ -118,7 +119,7 @@ gulp.task('build:img', function () {
 
 gulp.task('build:fonts', function () {
   gulp.src(path.fonts_src)
-    .pipe(gulp.dest(path.fonts_dest))
+    .pipe(gulp.dest(path.fonts_dest));
 });
 
 gulp.task('build', [
