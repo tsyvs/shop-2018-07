@@ -1,12 +1,9 @@
-// stylelint-disable at-rule-no-vendor-prefix, declaration-no-important, selector-no-qualifying-type, property-no-vendor-prefix
-
 // Reboot
 //
 // Normalization of HTML elements, manually forked from Normalize.css to remove
 // styles targeting irrelevant browsers while applying new styles.
 //
 // Normalize is licensed MIT. https://github.com/necolas/normalize.css
-
 
 // Document
 //
@@ -189,7 +186,6 @@ sup {
 sub { bottom: -.25em; }
 sup { top: -.5em; }
 
-
 //
 // Links
 //
@@ -228,7 +224,6 @@ a:not([href]):not([tabindex]) {
   }
 }
 
-
 //
 // Code
 //
@@ -255,7 +250,6 @@ a:not([href]):not([tabindex]) {
 //   -ms-overflow-style: scrollbar;
 // }
 
-
 //
 // Figures
 //
@@ -264,7 +258,6 @@ a:not([href]):not([tabindex]) {
 //   // Apply a consistent margin strategy (matches our type styles).
 //   margin: 0 0 1rem;
 // }
-
 
 //
 // Images and content
@@ -280,7 +273,6 @@ img {
 svg:not(:root) {
   overflow: hidden; // Hide the overflow in IE
 }
-
 
 //
 // Tables
@@ -303,7 +295,6 @@ th {
   // closest parent with a set `text-align`.
   text-align: inherit;
 }
-
 
 //
 // Forms
@@ -372,7 +363,6 @@ input[type="checkbox"] {
   box-sizing: border-box; // 1. Add the correct box sizing in IE 10-
   padding: 0; // 2. Remove the padding in IE 10-
 }
-
 
 // input[type="date"],
 // input[type="time"],
