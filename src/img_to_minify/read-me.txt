@@ -1,0 +1,6 @@
+Images optimization
+
+1. Place *.jpg or *.png files here
+2. Execute command "gulp minify"
+
+Optimized mages will be placed into "./src/img" folder

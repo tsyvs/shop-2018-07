@@ -1,0 +1,3 @@
+Place peaces of JS code here.
+
+To be used by "gulp-rigger" module.
