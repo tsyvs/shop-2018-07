@@ -1,0 +1,11 @@
+#more-products {
+    background: $color-light-secondary;
+    margin-top: 40px;
+    ul {
+        display: flex;
+        justify-content: center;
+        li+li {
+            margin-left: 12px;
+        }        
+    }
+}
