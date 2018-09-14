@@ -1,0 +1,33 @@
+#taxonomy {
+    color: $color-dark-primary;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: -6px;
+ 
+    ul {
+       display: flex;
+       justify-content: center;
+    }
+ 
+    li + li {
+       margin-left: 6px;
+    }
+ 
+    a {
+        background: $color-light-primary;
+        line-height: 60px;
+        padding: 13px 21px;
+        transition: color .2s;
+
+       &.active {
+        color: $color-light-primary;
+        background: $color-accent-2;
+    }
+ 
+       &:hover {
+          color: $color-light-primary;
+          background: $color-accent-2;
+       }
+    }
+}
+ 

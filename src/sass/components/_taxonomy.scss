@@ -1,0 +1,33 @@
+#taxonomy {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: -6px; /* не идет в итоговый результат почему-то  */
+ 
+    ul {
+       display: flex;
+       justify-content: center;
+    }
+ 
+    li + li {
+       margin-left: 6px;
+    }
+ 
+    a {
+        background: $color-light-primary;
+        color: $color-dark-primary;
+        line-height: 60px;
+        padding: 13px 21px;
+        transition: color .2s;
+
+       &.active {
+        background: $color-accent-2;
+        color: $color-light-primary;      
+       }
+ 
+       &:hover {
+        background: $color-accent-2;
+        color: $color-light-primary;      
+       }
+    }
+}
+ 
