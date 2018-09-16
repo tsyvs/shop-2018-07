@@ -1,11 +1,28 @@
 #more-products {
     background: $color-light-secondary;
     margin-top: 40px;
+
     ul {
         display: flex;
         justify-content: center;
-        li+li {
-            margin-left: 12px;
-        }        
     }
+
+    li + li {
+        margin-left: 12px;
+    }
+    
+    a {
+        display: inline-block;
+        padding: 0 32px;
+        line-height: 52px;
+        color: $color-dark-primary;
+        background: $color-light-primary;
+        transition: color .2s, background-color .2s;
+
+        &:hover {
+            color: $color-light-primary;
+            background: $color-accent-1;
+        }
+    }
+    
 }

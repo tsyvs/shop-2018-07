@@ -1,0 +1,14 @@
+.counter {
+   &::before,
+   &::after {
+      color: $color-dark-text;
+   }
+
+   &::before {
+      content: '(';
+   }
+
+   &::after {
+      content: ')'
+   }
+}

@@ -6,10 +6,18 @@
 @import "init/normalize";
 @import "init/grid";
 
+@import "components/page-layout";
+@import "components/counter";
+
 @import "components/main-menu";
 
-@import "components/footer-link";
-@import "components/aside-section";
+@import "components/product-item";
+
 @import "components/taxonomy";
 @import "components/more-products";
-@import "components/bottons";
+
+@import "components/aside-section";
+
+@import "components/footer-title";
+@import "components/footer-link";
+@import "components/copyright";

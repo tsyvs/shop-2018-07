@@ -1,7 +1,6 @@
 #taxonomy {
     font-size: 14px;
     font-weight: 500;
-    padding-left: -6px; /* не идет в итоговый результат почему-то  */
  
     ul {
        display: flex;
@@ -13,21 +12,18 @@
     }
  
     a {
+        display: inline-block;
+        padding: 0 21px;
+        line-height: 37px;
         background: $color-light-primary;
         color: $color-dark-primary;
-        line-height: 60px;
-        padding: 13px 21px;
-        transition: color .2s;
+        transition: color .2s, background-color .2s;
 
-       &.active {
-        background: $color-accent-2;
-        color: $color-light-primary;      
-       }
- 
-       &:hover {
-        background: $color-accent-2;
-        color: $color-light-primary;      
-       }
+        &.active,
+        &:hover {
+            background: $color-accent-2;
+            color: $color-light-primary;
+        }
     }
 }
  
