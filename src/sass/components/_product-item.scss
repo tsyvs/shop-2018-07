@@ -1,0 +1,19 @@
+.product {
+  display: flex;
+  flex-direction: column;
+}
+
+//.view-tile
+.view-line {
+  .product {
+    flex: 0 0 100%;
+    max-width: 100%;
+    flex-direction: row;
+    &-img {
+
+    }
+    &-info {
+      flex-grow: 1;
+    }
+  }
+}

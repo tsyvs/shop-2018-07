@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>Document</title>
-   <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body class="sidebar-left">
-   <!-- //= html_components/header.html -->
-   <header id="header">
-      <!-- header-elements -->
-      //= html_components/main-menu.html
-   </header>
+<!-- //= html_components/header.html -->
+<header id="header">
+    <!-- header-elements -->
+    //= html_components/main-menu.html
+</header>
 
-   <div id="main-wrp">
-      <div id="breadcrumbs">
-         <!--  -->
-      </div>
-      <main id="main">
-         <!-- products -->
-         <!-- filters -->
-         <!-- pager -->
-      </main>
-      <aside id="aside">
-         <!-- categories -->
-         <!-- price-range -->
-         <!-- top-products -->
-      </aside>      
-   </div>
+<div id="main-wrp" class="container">
+    <div class="row">
+        <div id="breadcrumbs">
+            <!--  -->
+        </div>
+        <main id="main" class="col-9">
+            <!-- products -->
+            <div class="row">
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+                //= html_components/product-item.html
+            </div>
+            <!-- filters -->
+            <!-- pager -->
+        </main>
+        <aside id="aside" class="col-3">
+            <!-- categories -->
+            <!-- price-range -->
+            <!-- top-products -->
+        </aside>
+</div>
 
-   <aside id="search">
-      <!-- search-form (order -1) -->
-   </aside>
+<aside id="search" class="col-3">
+    <!-- search-form (order -1) -->
+</aside>
+</div>
 
-   <footer id="footer">
-      <!-- columns -->
-      <!-- copyright -->
-   </footer>
+<footer id="footer">
+    <!-- columns -->
+    <!-- copyright -->
+</footer>
 </body>
 </html>
