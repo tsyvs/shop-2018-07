@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-wrp,
+#footer,
+.sidebar-left #main {
+  order: 1;
+}
+#footer {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
