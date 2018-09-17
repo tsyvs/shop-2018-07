@@ -1,0 +1,22 @@
+#footer {
+    .footer-link {
+        li + li {
+            margin-top: 15px;
+        } 
+        
+        i {
+            margin-right: 15px;
+            font-size: 18px;
+            color: $color-accent-1;
+        }
+
+        a {
+            color: $color-inactive-secondary;
+            transition: color .2s;
+
+            &:hover{
+                color: $color-accent-1;
+            }
+        }
+    }
+}
