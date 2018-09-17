@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+#main-wrp,
+#footer {
+    order: 1;
+}
+.sidebar-left #main {
+    order: 1;
+}
+
+
+#footer {
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}

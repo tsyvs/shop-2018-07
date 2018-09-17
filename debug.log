@@ -33,3 +33,4 @@
 [0913/224908.150:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name channel, discarding value Stable
 [0913/224908.150:WARNING:minidump_to_upload_parameters.cc(66)] duplicate annotation name ptype, discarding value renderer
 [0913/224911.787:ERROR:autoupdatechecker.cc(156)] Unable to prepare update checker runtime.
+[0914/183006.711:ERROR:autoupdatechecker.cc(156)] Unable to prepare update checker runtime.

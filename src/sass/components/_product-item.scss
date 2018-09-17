@@ -1,0 +1,17 @@
+.product {
+    display: flex;
+
+}
+// .view-line
+.view-line {
+    .poduct {
+        flex-direction: row;
+        flex: 0 0 100%;
+        &-img {
+
+        }
+        &-info {
+            flex-grow: 1;
+        }
+    }
+}

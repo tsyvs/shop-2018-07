@@ -1,10 +1,10 @@
 .btn-light {
-    padding: 16px 32px 14px 31px; 
+    padding: 16px 32px 14px 32px; 
     color: $color-dark-primary;
     background: $color-light-primary;
     box-shadow: 0 0 1px $shadow-btn;
     text-align: center;
-    transition: color .5s;
+    transition: color .3s, background-color .3s;
     text-transform: capitalize;
     &:hover {
         color: $color-light-primary;
