@@ -1,8 +1,0 @@
-Place project-specific files here.
-
-This also includes:
-- fonts
-- normalize
-- grid
-- ...
-- etc.

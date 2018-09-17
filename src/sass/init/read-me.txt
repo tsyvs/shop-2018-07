@@ -1,6 +1,0 @@
-Place common components here.
-
-Suggested files:
-- variables
-- mixins
-- functions
