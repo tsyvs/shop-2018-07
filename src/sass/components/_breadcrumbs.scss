@@ -1,0 +1,24 @@
+#breadcrumbs {
+   font-size: 15px;
+
+   ul {
+      display: flex;
+      list-style: none;
+   }
+
+   li {
+      color: $color-dark-text;
+
+      &:last-child {
+         color: $color-dark-primary;
+      }
+   }
+
+   a {
+      transition: color .2s;
+
+      &:hover {
+         color: $color-dark-primary;
+      }
+   }
+}
