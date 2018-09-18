@@ -1,5 +1,6 @@
 #breadcrumbs {
    font-size: 15px;
+   margin: 45px 0;
 
    ul {
       display: flex;
@@ -11,6 +12,13 @@
 
       &:last-child {
          color: $color-dark-primary;
+      }
+
+      + li::before {
+         content: '-';
+         display: inline-block;
+         margin: 0 9px;
+         color: $color-dark-text;
       }
    }
 
