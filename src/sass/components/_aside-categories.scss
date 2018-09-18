@@ -1,0 +1,28 @@
+    .section  {
+        
+        li {
+            display: flex;
+            margin-top: 28px;
+        } 
+
+        i {
+            margin-right: 13px;
+            font-size: 14px;
+            color: $color-accent-1;
+        }
+
+        a {
+            display: flex;
+            flex-grow: 1; 
+            color: $color-dark-primary;
+            font-size: 15px;
+            }
+
+            span {
+                color: $color-dark-text;
+                margin-left: auto;
+            }
+        }
+    
+    
+
