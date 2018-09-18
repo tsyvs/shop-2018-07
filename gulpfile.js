@@ -96,7 +96,7 @@ gulp.task('build:js', function () {
 
 gulp.task('tinypng', function () {
   return gulp.src(path.img_optimizing)
-    .pipe(tinypng('7DjDuuwkwESUXiHtxULH61Xskr8HVF3U'))
+    .pipe(tinypng('DJTM0WUHeNOXbmD5M6J0VaLeXzu20XeL'))
     .pipe(gulp.dest(path.img_optimized));
 });
 

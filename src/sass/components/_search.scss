@@ -1,0 +1,51 @@
+#search-front{
+    width: 100%;
+    height: 535px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../img/search-front.jpg");
+
+    .title{
+        font-family: 'roboto';
+        font-size: 48px;
+        color: #fff;
+        padding-bottom: 35px;
+    }
+
+     p{
+        font-family: 'roboto';
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 58px;
+    }
+    form {
+        position: relative;
+        width: 670px;
+    
+    }
+    input {
+        padding-right: 60px;
+        padding-left: 25px;
+        border-radius: 3px;
+        width: 100%;
+        height: 60px;
+    }
+
+    button {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        right: 0;
+        top: 0;
+        background: none;
+        border: none;
+
+    }
+
+    i {
+        width: 20px;
+        height: 20px;
+    }
+}
