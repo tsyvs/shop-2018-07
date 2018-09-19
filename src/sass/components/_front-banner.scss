@@ -1,0 +1,45 @@
+#front-banner{
+    background-color: $color-light-secondary;
+    font-family: $font-family-base;
+    
+}
+#front-banner .grey_section{
+    background: url(../../img/banner_grey.jpg);
+    min-height: 438px;
+    margin: 130px 33px 137px;
+    position: relative; 
+}
+#front-banner .grey_section .lime_section{
+    background-color: $color-accent-1;
+    width: 653px;
+    min-height: 216px;   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#front-banner .grey_section .lime_section .front_wrapper_content{
+    max-width: 82%;
+    margin: 71px auto;
+   
+    .front_banner_text{ 
+      color: $color-light-primary;
+      float: left;
+      font-size: 30px;  
+      max-width: 50%;
+      min-height: 63px;
+      .bold-text{
+      font-weight: bold;
+      }
+    }
+
+    .front_banner_link {
+     background-color: $color-light-primary;   
+     color: $color-dark-primary;
+     padding: 20px 43px;
+     font-size: 18px;
+     float: right;
+     min-height: 63px;
+    }
+}
+
