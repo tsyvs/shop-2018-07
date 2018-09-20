@@ -21,17 +21,21 @@
   },
   "homepage": "https://github.com/tsyvs/shop-2018-07#readme",
   "dependencies": {
-    "browser-sync": "latest",
-    "del": "latest",
+    "browser-sync": "^2.24.7",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "latest",
-    "gulp-clean-css": "latest",
-    "gulp-rigger": "latest",
-    "gulp-sass": "latest",
-    "gulp-sourcemaps": "latest",
-    "gulp-tinify": "latest",
-    "gulp-uglify-es": "latest",
-    "gulp-watch": "latest",
-    "run-sequence": "latest"
+    "gulp-clean-css": "^3.10.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemap": "^1.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-tinify": "^1.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-watch": "^5.0.1",
+    "rigger": "latest",
+    "run-sequence": "^2.2.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.0.0"
   }
 }
