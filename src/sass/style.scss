@@ -7,17 +7,24 @@
 @import "init/grid";
 
 @import "components/page-layout";
+@import "components/breadcrumbs";
 @import "components/counter";
 
 @import "components/main-menu";
 
+@import "components/main-section";
+@import "components/aside-section";
+@import "components/aside-categories";
+
 @import "components/product-item";
+@import "components/about-us";
 
 @import "components/taxonomy";
 @import "components/more-products";
-
-@import "components/aside-section";
 @import "components/front-tutorials";
+@import "components/search";
+
+@import "components/footer-address";
 @import "components/footer-title";
 @import "components/footer-link";
 @import "components/copyright";

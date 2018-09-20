@@ -1,0 +1,36 @@
+#aside-categories  {
+    
+    li {
+        display: flex;
+        
+        + li {
+            margin-top: 26px;
+        }
+    }     
+    
+    a {
+        display: flex;
+        flex-grow: 1; 
+        color: $color-dark-primary;
+        font-size: 15px;
+        transition: color .2s;
+
+        &:hover {
+            color: $color-accent-1;
+        }
+    }
+
+    .fa {
+        margin-right: 13px;
+        font-size: 14px;
+        color: $color-accent-1;
+    }    
+
+    .counter {
+        color: $color-dark-text;
+        margin-left: auto;
+    }
+}
+    
+    
+
