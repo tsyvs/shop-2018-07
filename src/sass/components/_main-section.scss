@@ -1,6 +1,7 @@
 .main-section {
-   border: 1px solid $color-border-2;
    padding: 50px;
+   background: $color-light-primary;
+   border: 1px solid $color-border-2;
 
    .title,
    .subtitle {
