@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +9,30 @@
    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body class="sidebar-left">
-   <!-- //= html_components/header.html -->
    <header id="header">
       <!-- header-elements -->
       //= html_components/main-menu.html
    </header>
 
-   <div id="main-wrp">
-      <div id="breadcrumbs">
-         <!--  -->
+   <div id="main-wrp" class="container">
+      <div class="row">
+         <div id="breadcrumbs" class="col-12">
+            <!--  -->
+         </div>
+         <main id="main" class="col-9">
+            <!-- image (order -1) -->
+            <!-- text -->
+            <!-- extra-info -->
+            <!-- tabs -->
+         </main>
+         <aside id="aside" class="col-3">
+            <!-- about-seller -->
+            <!-- links -->
+            <!-- tabs-headers -->
+         </aside>
       </div>
-      <main id="main">
-         <!-- image (order -1) -->
-         <!-- text -->
-         <!-- extra-info -->
-         <!-- tabs -->
-      </main>
-      <aside id="aside">
-         <!-- about-seller -->
-         <!-- links -->
-         <!-- tabs-headers -->
-      </aside>      
    </div>
 
    <aside id="search">
@@ -38,7 +41,26 @@
 
    <footer id="footer">
       <!-- columns -->
+      <div class="container">
+         <div class="footer-column">
+            <div class="title">About Company</div>
+            //= html_components/footer-address.html
+         </div>
+         <div class="footer-column">
+            <div class="title">Join Our Community</div>
+            //= html_components/footer-link-col-1.html
+         </div>
+         <div class="footer-column">
+            <div class="title">Need Help?</div>
+            //= html_components/footer-link-col-2.html
+         </div>
+         <div class="footer-column">
+            <div class="title">Follow Us On</div>
+         </div>
+      </div>
       <!-- copyright -->
+      //= html_components/copyright.html
    </footer>
 </body>
+
 </html>

@@ -1,0 +1,23 @@
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+#main-wrp,
+#footer,
+.sidebar-left #main {
+   order: 1
+}
+
+#footer {
+   margin-top: 110px;
+   background: $color-dark-primary;
+   font-size: 15px;
+
+   .container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 115px;
+      margin-bottom: 100px;
+   }
+}

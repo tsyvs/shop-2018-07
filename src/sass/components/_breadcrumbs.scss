@@ -1,0 +1,32 @@
+#breadcrumbs {
+   font-size: 15px;
+   margin: 45px 0;
+
+   ul {
+      display: flex;
+      list-style: none;
+   }
+
+   li {
+      color: $color-dark-text;
+
+      &:last-child {
+         color: $color-dark-primary;
+      }
+
+      + li::before {
+         content: '-';
+         display: inline-block;
+         margin: 0 9px;
+         color: $color-dark-text;
+      }
+   }
+
+   a {
+      transition: color .2s;
+
+      &:hover {
+         color: $color-dark-primary;
+      }
+   }
+}
