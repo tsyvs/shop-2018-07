@@ -1,0 +1,25 @@
+.about-us {
+    border: 1px solid $color-border-2;
+
+    h1 {
+        font-size: 24px;
+        padding: 20px 0 25px 15px;
+        color: $color-dark-primary;
+        border-bottom: 1px solid $color-border-2;
+    }
+
+    h2{
+        font-size: 20px;
+        padding-left: 50px;
+        margin-top: 45px;
+        color: $color-dark-primary;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 20px 70px 55px 50px;
+        color: $color-dark-secondary;
+    }
+}
