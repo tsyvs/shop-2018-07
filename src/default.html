@@ -10,40 +10,26 @@
 
 </head>
 
-<body class="sidebar-right">
+<body class="front">
    <header id="header">
       <!-- header-elements -->
       //= html_components/main-menu.html
    </header>
 
-   <div id="main-wrp" class="container">
-      <div class="row">
-         <div id="breadcrumbs" class="col-12">
-            <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="catalog.html">Catalog</a></li>
-               <li>Product Page</li>
-            </ul>
-         </div>
-         <main id="main" class="col-9">
-            <!-- title -->
-            <!-- image (order -1) -->
-            <!-- text -->
-            <!-- links -->
-            <!-- tabs -->
-            <!-- other-products -->
-         </main>
-         <aside id="aside" class="col-3">
-            <!-- buy -->
-            <!-- seller -->
-            <!-- sales-counter -->
-            <!-- product-info -->
-         </aside>
-      </div>
+   <div id="main-wrp">
+      <main id="main">
+         <!-- newest-products -->
+         //= html_components/taxonomy.html
+         //= html_components/more-products.html
+         <!-- carousel -->
+         <!-- why-choose-us -->
+         <!-- banner -->
+         //= html_components/front-tutorials.html
+      </main>
    </div>
 
    <aside id="search">
-      //= html_components/search-default.html
+      //= html_components/search-front.html
    </aside>
 
    <footer id="footer">
@@ -65,7 +51,6 @@
             <div class="title">Follow Us On</div>
          </div>
       </div>
-      <!-- copyright -->
       //= html_components/copyright.html
    </footer>
 </body>

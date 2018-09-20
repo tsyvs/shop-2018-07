@@ -1,10 +1,6 @@
 #copyright {
-    border-top: 1px solid #336666;
-    background: $color-dark-primary;
-    padding-top: 27px;
-    padding-bottom: 32px;
+    padding: 27px 1em 32px;
+    border-top: 1px solid $shadow-btn;
     text-align: center;
-    font-size: 15px;
-    color: #999999;
-    font-family: $font-family-base;
+    color: $color-inactive-secondary;
 }

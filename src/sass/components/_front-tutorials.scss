@@ -1,0 +1,32 @@
+#tutorials {
+    background: $color-light-primary;
+    margin-bottom: -110px;
+    padding: 108px 0 120px;
+
+    .title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 60px;
+        color: $color-dark-primary;
+        margin-bottom: 44px;
+    }  
+
+    .tutorial {
+        .link {
+            display: block;
+            text-align: center;
+            background:$color-light-secondary;
+            line-height: 100px;
+            font-size: 24px;
+            font-weight: 500;
+            color: $color-dark-primary;
+            transition: color .2s, background-color .2s;
+
+            &:hover {
+                color: $color-light-primary;
+                background: $color-accent-1;
+            }
+        }
+    }
+}
