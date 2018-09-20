@@ -1,0 +1,23 @@
+.main-section {
+   border: 1px solid $color-border-2;
+   padding: 50px;
+
+   .title,
+   .subtitle {
+      color: $color-dark-primary;
+   }
+
+   .title {
+      font-size: 24px;
+      font-weight: 500;
+      margin: -50px -50px 0;
+      padding: 20px 33px;
+      border-bottom: 1px solid $color-border-2;
+   }
+
+   .subtitle {
+      font-size: 20px;
+      font-weight: 700;
+      margin: 45px 0 20px;
+   }
+}
