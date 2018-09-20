@@ -1,46 +1,4 @@
 #footer{
-<<<<<<< HEAD
-    position: relative;
-    #title-wrap {
-        background: #443e44;
-        position: absolute;
-        display: flex;
-        top: 116px;
-        left: 375px;
-        right: 500px;
-
-        :nth-child(1) {
-            flex-basis: 357px;
-            }
-         :nth-child(2) {
-            flex-basis: 316px;
-             }
-         :nth-child(3) {
-            flex-basis: 240px;
-             }
-
-    }
-    .title {
-        font-family:"roboto";
-        font-size: 22px;
-        color: #fff;
-        margin-bottom: 34px;
-        
-        &:after {
-           content: ""; 
-           position: absolute;
-           top:28px;
-           display: block;
-           width: 51px;
-           height: 3px;
-           background-color: #8bc34a;
-
-     
-        }
-    }
-
-
-=======
    .title {
       position: relative;
       font-size: 22px;
@@ -58,5 +16,4 @@
          background-color: $color-accent-1;
       }
    }
->>>>>>> dev
 }
