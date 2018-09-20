@@ -1,28 +1,36 @@
-    .section  {
+#aside-categories  {
+    
+    li {
+        display: flex;
         
-        li {
-            display: flex;
-            margin-top: 28px;
-        } 
+        + li {
+            margin-top: 26px;
+        }
+    }     
+    
+    a {
+        display: flex;
+        flex-grow: 1; 
+        color: $color-dark-primary;
+        font-size: 15px;
+        transition: color .2s;
 
-        i {
-            margin-right: 13px;
-            font-size: 14px;
+        &:hover {
             color: $color-accent-1;
         }
+    }
 
-        a {
-            display: flex;
-            flex-grow: 1; 
-            color: $color-dark-primary;
-            font-size: 15px;
-            }
+    .fa {
+        margin-right: 13px;
+        font-size: 14px;
+        color: $color-accent-1;
+    }    
 
-            span {
-                color: $color-dark-text;
-                margin-left: auto;
-            }
-        }
+    .counter {
+        color: $color-dark-text;
+        margin-left: auto;
+    }
+}
     
     
 
