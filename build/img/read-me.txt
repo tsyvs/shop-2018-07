@@ -1,4 +1,0 @@
-Place optimized files here.
-
-If files are not optimized,
-see "read-me.txt" in "./src/img_to_minify" folder.
